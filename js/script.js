@@ -183,7 +183,7 @@ var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 5,
+    slidesPerView: 'auto',
     autoHeight: true,
     loop: true,
     autoplay: {
